@@ -12,32 +12,31 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Owoyomi Taiwo ',
+  title: "Hi all, I'm Taiwo",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm passionate Full Stack Engineer having an experience in web applications with Python, Django, Flask and Blockchain development on Ethereum, Solidity, Web3.js, Golang, and Brownie Framework.",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'owoyomi20',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  linkedin: 'https://www.linkedin.com/in/owoyomitaiwoadeyemi-/',
+  github: 'https://github.com/owoyomi20',
+  instagram: 'https://www.instagram.com/am_sylver_vert',
+  twitter: 'https://twitter.com/Im_Heka2pac',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'A PASSIONATE SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
     {
       title: 'Full Stack Development',
@@ -46,7 +45,10 @@ export const skillsSection: SkillsSectionType = {
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
+        emoji('⚡ BUilt Fullstack AirBnB Clone Using HTML, CSS, Javscript and Flask'),
+          
+        emoji('⚡ Building RESTful APIs in Flask & Flask REST Framework'),
+
         emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
       ],
       softwareSkills: [
@@ -63,12 +65,12 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:javascript',
         },
         {
-          skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+          skillName: 'Flask',
+          fontAwesomeClassName: 'logos:flask',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          skillName: 'Celery',
+          fontAwesomeClassName: 'simple-icons:celery',
         },
         {
           skillName: 'Python',
@@ -91,6 +93,11 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Yarn',
           fontAwesomeClassName: 'logos:yarn',
         },
+        {
+          skillName: 'Go',
+          fontAwesomeClassName: 'logos:go',
+        },
+
       ],
     },
     {
@@ -136,16 +143,12 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:github-actions',
         },
         {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
+          skillName: 'Digital Ocean',
+          fontAwesomeClassName: 'logos:digital-ocean',
         },
         {
           skillName: 'Nginx',
           fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
         },
       ],
     },
@@ -184,10 +187,7 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Metamask',
           fontAwesomeClassName: 'logos:metamask-icon',
         },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
+    
       ],
     },
   ],
@@ -196,11 +196,11 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '30', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '90',
   },
   {
     Stack: 'Programming',
@@ -210,87 +210,72 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'Federal University Of Technology Akure', 
+    subHeader: 'B.Tech in Physics Electronics',
+    duration: 'September 2015 - December 2021',
+    desc: 'Participated in the research of Peaceful use of Nuclear waste and published 3 papers.',
+    grade: 'Grade B',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Strengthening quantitative reasoning and problem solving skills that are valuable in areas beyond physics',
+      'Acquired skills in electrical circuit analysis and design, analog and digital electronics, embedded systems, and communication systems',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
+    role: 'Jr Web Developer',
+    company: 'Island Computer ',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
     date: 'Apr 2022 – Jun 2022',
     desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
   },
+
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'Software Engineer Intern',
+    company: 'ALX Africa',
+    companyLogo: '',
+    date: 'May 2021 - Apr 2022',
+    desc: 'I joined ALX Africa as an intern student in software engineering and completed a 12-month programme that taught me web development from the ground up. I learned how to use HTML, CSS, JavaScript, React, Node.js, and MongoDB to create web applications. I also learned how to use Git, GitHub, and AWS for version control and cloud deployment. I applied my skills and knowledge to several projects, such as a portfolio website, a blog app, and a social media clone. I also accessed The ROOM, a network of opportunities and a community to support my career growth.',
   },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
+
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
+    name: 'My personal portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
+    github: 'https://github.com/owoyomi20/My-portfolio',
     link: 'https://developer-portfolio-1hanzla100.vercel.app/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'TYcrm',
+    desc: 'My project is a web application that helps users manage their customers and sales. It uses Django for the backend and Tailwind CSS for the frontend. It has features like contact management, lead tracking, invoice generation, email communication, and dashboard reports. It is deployed on Digital Ocean and uses PostCSS for processing the CSS files.',
+    github: 'https://github.com/#',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Airbnb Clone ',
+    desc: 'My project is a web application that allows users to find and book rooms or apartments for short-term stays. It is inspired by the popular platform Airbnb, but with my own design and features. I used Flask as the backend framework to handle the logic and data of the app, and HTML and CSS to create the front end interface.',
+     
+    github: 'https://github.com/owoyomi20/AirBnB_clone_v4',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Flask  (Ecommerce)',
+    desc: 'Flask Fullstack ',
+    github: 'https://github.com/owoyomi20/Flask_Ecommerce',
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'John Smith',
+    name: 'Ibitoye Esther',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      'You have delivered a fantastic web development project for us. You have impressed us with your quality, functionality, and design. You have been professional, creative, and responsive throughout the process. You have completed the project on time and within budget. Thank you for your excellent work and dedication!',
   },
   {
-    name: 'John Smith',
+    name: 'Awoyemi Oluwasegun David',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      'I am very pleased with the website you created for my business. It is attractive, functional, and user-friendly. It showcases my products and services in a professional and appealing way. It also has a fast loading speed, a responsive design, and a secure payment system. The website has increased my online presence and sales. Thank you for your excellent work and service.',
   },
 ];
 
@@ -299,19 +284,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Owoyomi Taiwo Adeyemi Rehoboam ',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Hanzla Tauqeer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Taiwo',
+    'Adeyemi taiwo',
+    'owoyomi20',
+    'owoyomi20',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Taiwo Portfolio ',
+    'Owoyomi Taiwo',
   ],
 };
