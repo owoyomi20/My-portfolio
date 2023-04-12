@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate Full Stack Engineer having an experience in web applications with Python, Django, Flask and Blockchain development on Ethereum, Solidity, Web3.js, Golang, and Brownie Framework.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://app.resumegiants.com/share/bdeba0d9cbda417695f38aa70a6b3f11',
 };
 
 export const openSource = {
