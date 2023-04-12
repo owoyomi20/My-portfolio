@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+    <img src="https:></img>
   </kbd>
 </p>
 
@@ -109,12 +109,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 ## Author
 
-👤 **Hanzla Tauqeer**
-
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
+👤 **Owoyomi Taiwo**
 ## Show your support
 
 Give a ⭐️ if this project helped you!
